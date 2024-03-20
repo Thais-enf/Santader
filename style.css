@@ -82,3 +82,45 @@ p {
     margin-top: 20px;
     font-size: 20px;
 }
+
+@media screen and (max-width:712px ){
+
+    .caixa {
+        padding:10px;
+    }
+    .logo {
+        width:101px; /* largura */
+    }
+    
+    .link-voce {
+        color:  #ff0000;  /* troca a cor do texto */
+        margin-left:20px;  /* margem do lado esquerdo */
+        font-size:20px; /* tamanho da fonte */
+        font-weight:100; /* grossura da fonte */
+        cursor: pointer;
+    }
+    .link-voce:hover {
+        text-decoration: underline;
+    }
+    
+    .link-empresa {
+        color:  #000000;
+        margin-left:20px;  /* margem do lado esquerdo */
+        font-size:20px; /* tamanho da fonte */
+        cursor: pointer; /* troca o cursor do mouse */
+    }
+    
+    .link-empresa:hover {
+        text-decoration: underline;
+    }
+    
+    .background {
+        width:120%;
+    }
+    h3 {
+        margin-right:3px;
+       margin-top: 60px;  /* margem em cima */
+        font-size: 40px;
+    }    
+}
+
